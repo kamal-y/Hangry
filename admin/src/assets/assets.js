@@ -14,4 +14,5 @@ export const assets ={
     parcel_icon
 }
 
+export const currency = '₹'
 export const url = 'https://hangry-backend.onrender.com'
