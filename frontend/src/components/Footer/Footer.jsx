@@ -13,7 +13,10 @@ const Footer = () => {
             <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
               <img src={assets.twitter_icon} alt="" />
-              <img src={assets.linkedin_icon} alt="" />
+              <a href="http://www.linkedin.com/in/aayushpandey" target="_blank" rel="noopener noreferrer">
+              <img src={assets.linkedin_icon} alt="LinkedIn" />
+              </a>
+             
             </div>
         </div>
         <div className="footer-content-center">
