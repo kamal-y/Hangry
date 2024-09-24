@@ -48,7 +48,7 @@ const PlaceOrder = () => {
       window.location.replace(session_url);
     }
     else{
-      alert("Error");
+      alert("Order Placed");
     }
   }
 
