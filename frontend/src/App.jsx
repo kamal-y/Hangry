@@ -10,6 +10,8 @@ import LoginPopup from './components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 
+console.log('%cWhy are you looking at my logs 👀', 'color: #FF5733; font-size: 20px;');
+
 const App = () => {
 
   const [showLogin,setShowLogin] = useState(false)
