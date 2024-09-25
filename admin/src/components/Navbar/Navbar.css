@@ -55,11 +55,6 @@
     transition: all .3s;
 }
 
-
-:root .logo {
-    filter: var(--logos-filter); 
-}
-
 .lightcolors .logo {
     filter: none; 
 }
