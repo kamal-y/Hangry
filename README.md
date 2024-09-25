@@ -47,7 +47,6 @@ Hangry is a full-stack web application built using the MERN (MongoDB, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
 - **UI Library**: Material-UI / Bootstrap (mention if any)
-- **State Management**: Redux (mention if used)
 
 ## Installation
 
