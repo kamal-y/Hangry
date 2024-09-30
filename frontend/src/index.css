@@ -1,55 +1,39 @@
-.header{
-    height: 34vw;
-    margin: 30px auto;
-    background: url('https://assets.isu.pub/document-structure/230511112917-e040a8400c387d994117a6cce41f4026/v1/166106a522f96470ae15f8cf6957fd55.jpeg') no-repeat; 
-    background-size:contain;
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
 }
-.header-contents{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1.5vw;
-    max-width: 50%;
-    bottom: 10%;
-    left: 6vw;
-    animation: fadeIn 3s;
+
+body {
+  min-height: 100vh;
+  background-color: #FFF7CA; /* Add the background color here */
 }
-.header-contents h2{
-    font-weight:500;
-    color: white;
-    font-size: max(4.5vw,22px);
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.header-contents p{
-    color: white;
-    font-size: 1vw;
+
+.app {
+  width: 80%;
+  margin: auto;
 }
-.header-contents button{
-    border: none;
-    color: #747474;
-    font-weight: 500;
-    padding: 1vw 2.3vw;
-    background: white;
-    font-size: max(1vw,13px);
-    border-radius: 50px;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @media (max-width:1050px) {
-    .header{
-        height: 38vw;
-    }
-    .header-contents{
-        max-width: 45%;
-    }
-}
-@media(max-width:750px){
-    .header-contents{
-        max-width: 55%;
-    }
-    .header-contents p{
-       display: none;
-    }
-    .header-contents button{
-        padding: 2vw 4vw;
-    }
+  .app {
+    width: 90%;
+  }
 }
